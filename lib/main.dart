@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:grupoestudo/bloc/get_post_bloc.dart';
-import 'package:grupoestudo/homepage.dart';
+import 'package:grupoestudo/bloc/get_post/get_post_bloc.dart';
+import 'package:grupoestudo/pages/homepage.dart';
+import 'package:grupoestudo/repositories/remoto/api_request.dart';
 
-import 'package:grupoestudo/repostiries/api_request.dart';
 
 void main() {
   runApp(const MyApp());

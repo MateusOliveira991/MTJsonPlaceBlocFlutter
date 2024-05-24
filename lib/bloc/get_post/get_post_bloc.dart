@@ -1,9 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:grupoestudo/repostiries/api_request.dart';
+
 import 'package:equatable/equatable.dart';
 import 'package:grupoestudo/entities/Post.dart';
+import 'package:grupoestudo/repositories/remoto/api_request.dart';
 
 part 'get_post_event_bloc.dart';
 part 'get_post_state_bloc.dart';
